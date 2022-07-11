@@ -18,9 +18,9 @@ object dataframe_avg  {
 //    val avgDF = dataDF.groupBy("movie").agg(avg("rating"))
 //    avgDF.show()
 
-  val df= spark.createDataFrame(Seq(("item",1),("item",3),("itme 2 ",2))).toDF("name","value")
+  val df= spark.createDataFrame(Seq(("item",1),("item",3),("item 2 ",2))).toDF("name","value")
     df.show()
-    val avg_df=df.groupBy("name").agg( count("value"))
+    val avg_df=df.groupBy("name").agg(sum("value"))
     avg_df.show()
     // Print the result
 
