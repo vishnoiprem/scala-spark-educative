@@ -1,9 +1,9 @@
 
 
 // Imports
-import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.types._
+import org.apache.spark.sql.{SaveMode, SparkSession}
 
 object DfSchemaMovie  {
 
@@ -76,9 +76,9 @@ print("\n")
 
       movies4.show(1, false)
 ////
-//////    # Writing out DataFrames
-//    (movies4.write.format("parquet").mode(SaveMode.Overwrite)
-//      .save("src/main/resources/data/moviesFile"))
+////    # Writing out DataFrames
+    (movies4.write.format("parquet").mode(SaveMode.Overwrite)
+      .save("src/main/resources/data/moviesFile"))
 
 
 
