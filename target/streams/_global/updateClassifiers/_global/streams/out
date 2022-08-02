@@ -1,4 +1,4 @@
 [debug] "not up to date. inChanged = true, force = false
-[debug] Updating ProjectRef(uri("file:/Users/vishnoiprem/Office/software/scala-spark-educative/"), "scala-spark-educative")...
-[debug] Done updating ProjectRef(uri("file:/Users/vishnoiprem/Office/software/scala-spark-educative/"), "scala-spark-educative")
+[debug] Updating ProjectRef(uri("file:/Users/prem.vishnoi/IdeaProjects/scala-spark-educative-etl/"), "scala-spark-educative-etl")...
+[debug] Done updating ProjectRef(uri("file:/Users/prem.vishnoi/IdeaProjects/scala-spark-educative-etl/"), "scala-spark-educative-etl")
 [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
