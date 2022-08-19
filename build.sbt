@@ -4,10 +4,12 @@ name := "scala-spark-educative"
 
 //libraryDependencies ++= Seq( "org.apache.spark" % "spark-core_2.11" % "2.1.0")
 
-
 version := "1.0"
 
 scalaVersion := "2.12.10"
+//scalaVersion := "2.13.6"
+
+
 
 libraryDependencies += "org.apache.spark" %% "spark-sql" % "3.0.0-preview2"
 
